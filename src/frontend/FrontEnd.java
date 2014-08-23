@@ -147,7 +147,7 @@ public class FrontEnd extends javax.swing.JFrame {
 
             @Override
             public void windowClosing(WindowEvent e) {
-                System.out.println("\nExiting.....Made By Nikhil and Tushar  CSE@IITD \nFeel free to share your thoughts about emuSimple Risc at emuSr@gmail.com \n..GoodBye");
+                System.out.println("\nExiting.....Made By Nikhil and Tushar  CSE@IITD \nFeel free to share your thoughts about emuSimple Risc at nikkr007@gmail.com \n..GoodBye");
                 System.exit(0);
             }
 
@@ -517,7 +517,7 @@ public class FrontEnd extends javax.swing.JFrame {
         help_contact.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(new javax.swing.JFrame(), "Feel free to contact me at emuSR@gmail.com","Contact Us",JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(new javax.swing.JFrame(), "Feel free to contact me at nikkr007@gmail.com","Contact Us",JOptionPane.INFORMATION_MESSAGE);
             }
         });
         help.add(help_contact);
@@ -528,7 +528,7 @@ public class FrontEnd extends javax.swing.JFrame {
         help_report.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(new javax.swing.JFrame(), "Thankyou for your report. Please e-mail the details to emuSR@gmail.com","Report Bug",JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(new javax.swing.JFrame(), "Thankyou for your report. Please e-mail the details to nikkr007@gmail.com","Report Bug",JOptionPane.INFORMATION_MESSAGE);
             }
         });
         help.add(help_report);

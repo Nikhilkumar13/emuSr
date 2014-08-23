@@ -236,6 +236,7 @@ public class ScanFile  implements Runnable
 
             st = new StringTokenizer(strLine, " ");
               ins = st.nextToken();
+              Emit.ins=ins;
              String rd="";
              String addressing_mode="";
 
